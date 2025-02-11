@@ -1,0 +1,18 @@
+{
+  "name": "Vodume Mixder",
+  "description": "Control volume or supposed to",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/volume_icon(16x16).png",
+      "32": "images/volume_icon(32x32).png",
+      "48": "images/volume_icon(48x48).png",
+      "128": "images/volume_icon(128x128).png"
+    }
+  }
+
+}
